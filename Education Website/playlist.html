@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlists</title>
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <!-- Header Start -->
+    
+    <header class="header">
+
+        <section class="flex-class">
+
+            <a href="home.html" class="logo">Kama Academy</a>
+            
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="search here" required maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="home-icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fa-sharp fa-solid fa-user"></div>
+                <div id="toggle-btn" class="fa-solid fa-cloud-sun"></div>
+            </div>
+
+
+            
+            <div class="profile">
+                <img src="./img/Dragon-amico.png" alt="">
+                <h3>Kamil Ismayilzada</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">profile settings</a>
+
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+        
+    <!-- Header End -->
+
+
+    <!-- Sidebar Start -->
+
+        <div class="sidebar">
+
+            <div class="close-side-bar">
+                <i class="fa-solid fa-square-xmark"></i>
+            </div>
+
+            <div class="profile">
+                <img src="./img/Dragon-amico.png" alt="">
+                <h3>Kamil Kowalczyk</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">profile settings</a>
+            </div>
+
+            <div class="navbar">
+                <a href="home.html"><i class="fa-solid fa-house-user"></i><span>home</span></a>
+                <a href="about.html"><i class="fa-solid fa-circle-question"></i><span>about us</span></a>
+                <a href="course.html"><i class="fa-solid fa-school"></i><span>our courses</span></a>
+                <a href="teacher.html"><i class="fa-solid fa-chalkboard-user"></i><span>our teachers</span></a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i><span>contact us</span></a>
+            </div>
+
+        </div>
+
+    <!-- Sidebar End -->
+
+    
+    <!-- Playlist Start -->
+
+        <section class="playlist">
+
+            <h1 class="heading">playlists</h1>
+
+            <div class="row">
+                
+                <div class="columns">
+                    <form action="" method="post" class="save-playlist">
+                        <button type="submit" name="save-playlist"><i class="fa-sharp fa-solid fa-bookmark"></i><span>save</span></button>
+                    </form>
+                    <div class="thumb">
+                        <span>4 videos</span>
+                        <img src="./img/logo-og.png" alt="">
+                    </div>
+                </div>
+
+                <div class="columns">
+                   <div class="tutor">
+                        <img src="./img/Muzzle-pana.png" alt="">
+                        <div>
+                            <h3>Emil Wasilewski</h3>
+                            <span>Web developer</span>
+                        </div>
+                   </div>
+
+                   <div class="details">
+                        <h3>React Js tutorial</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem magni necessitatibus reiciendis tenetur cumque, ipsa est possimus facilis temporibus?</p>
+
+                        <div class="date">
+                            <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                            <span>30-09-2022</span>                          
+                        </div>
+                   </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- Playlist End -->
+
+    <!-- Videos Start -->
+
+        <section class="videos">
+
+            <h1 class="heading">playlist videos</h1>
+
+            <div class="box-container">
+                <a href="videos.html" class="box">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                    <img src="./img/logo-og.png" alt="">
+                    <h3>React Js tutorial Part 1</h3>
+                </a>
+    
+                <a href="videos.html" class="box">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                    <img src="./img/logo-og.png" alt="">
+                    <h3>React Js tutorial Part 2</h3>
+                </a>
+    
+                <a href="videos.html" class="box">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                    <img src="./img/logo-og.png" alt="">
+                    <h3>React Js tutorial Part 3</h3>
+                </a>
+    
+                <a href="videos.html" class="box">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                    <img src="./img/logo-og.png" alt="">
+                    <h3>React Js tutorial Part 4</h3>
+                </a>
+            </div>
+
+        </section>
+
+    <!-- Videos End -->
+
+
+    <!-- Footer Start -->
+
+        <footer class="footer">
+
+            &copy; copyright 2022 | <span>Kamil</span> | all rights reserved!
+
+        </footer>
+
+    <!-- Footer End -->
+
+    <script src="./app.js"></script>
+
+</body>
+</html>

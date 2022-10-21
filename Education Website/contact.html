@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact with Academy</title>
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <!-- Header Start -->
+    
+    <header class="header">
+
+        <section class="flex-class">
+
+            <a href="home.html" class="logo">Kama Academy</a>
+            
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="search here" required maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="home-icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fa-sharp fa-solid fa-user"></div>
+                <div id="toggle-btn" class="fa-solid fa-cloud-sun"></div>
+            </div>
+
+
+            
+            <div class="profile">
+                <img src="./img/Dragon-amico.png" alt="">
+                <h3>Kamil Kowalczyk</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">profile settings</a>
+
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+        
+    <!-- Header End -->
+
+
+    <!-- Sidebar Start -->
+
+        <div class="sidebar">
+
+            <div class="close-side-bar">
+                <i class="fa-solid fa-square-xmark"></i>
+            </div>
+
+            <div class="profile">
+                <img src="./img/Dragon-amico.png" alt="">
+                <h3>Kamil Ismayilzada</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">profile settings</a>
+            </div>
+
+            <div class="navbar">
+                <a href="home.html"><i class="fa-solid fa-house-user"></i><span>home</span></a>
+                <a href="about.html"><i class="fa-solid fa-circle-question"></i><span>about us</span></a>
+                <a href="course.html"><i class="fa-solid fa-school"></i><span>our courses</span></a>
+                <a href="teacher.html"><i class="fa-solid fa-chalkboard-user"></i><span>our teachers</span></a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i><span>contact us</span></a>
+            </div>
+
+        </div>
+
+    <!-- Sidebar End -->
+
+
+
+    <!-- Contact Start -->
+
+        <section class="contact">
+
+            <h1 class="heading">contact us</h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="./img/Online world-pana.png" alt="">
+                </div>
+
+                <form action="" method="post">
+                    
+                        <h3>connect with us</h3>
+                    <input type="text" name="name" id="" placeholder="enter your name: " class="box" required maxlength="100">
+                    <input type="text" name="surname" id="" placeholder="enter your surname: " class="box" required maxlength="100">
+                    <input type="email" name="email" id="" placeholder="enter your email: " class="box" required maxlength="100">
+                    <input type="number" name="number" id="" placeholder="enter your number: " class="box" required maxlength="100">
+                    <input type="text" name="date" placeholder="enter your date of birth: " class="box" required maxlength="100" onfocus="(this.type='date')" onblur="(this.type='text')" id="date">
+                    <textarea name="msg" id="" cols="30" rows="10" class="box" placeholder="enter your message..." required></textarea>
+                    <input type="submit" value="send" name="submit" class="inline-btn">
+                    
+                </form>
+
+            </div>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                    <h3>contact numbers</h3>
+                    <a href="tel: 789 786 453">789-786-453</a>
+                    <a href="tel: 164 547 773">164-547-773</a>
+                </div>
+
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-envelopes-bulk"></i>
+                    <h3>email address</h3>
+                    <a href="contactkamacademy@gmail.com">contactkamacademy@gmail.com</a>
+                    <a href="Mariusz.chmielewski.kamacademy@gmail.com">Mariusz.chmielewski.kamacademy@gmail.com</a>
+                </div>
+
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+                    <h3>office address</h3>
+                    <a href="#">1 Maja, 02-495 Warszawa</a>
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- Contact End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Start -->
+
+        <footer class="footer">
+
+            &copy; copyright 2022 | <span>Kamil</span> | all rights reserved!
+
+        </footer>
+
+    <!-- Footer End -->
+
+    <script src="./app.js"></script>
+
+</body>
+</html>

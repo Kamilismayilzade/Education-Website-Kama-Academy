@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <!-- Header Start -->
+    
+    <header class="header">
+
+        <section class="flex-class">
+
+            <a href="home.html" class="logo">Kama Academy</a>
+            
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="search here" required maxlength="100">
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+
+            <div class="home-icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fa-sharp fa-solid fa-user"></div>
+                <div id="toggle-btn" class="fa-solid fa-cloud-sun"></div>
+            </div>
+
+
+            
+            <div class="profile">
+                <img src="./img/Dragon-amico.png" alt="">
+                <h3>Kamil Kowalczyk</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">profile settings</a>
+
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+        
+    <!-- Header End -->
+
+
+    <!-- Sidebar Start -->
+
+        <div class="sidebar">
+
+            <div class="close-side-bar">
+                <i class="fa-solid fa-square-xmark"></i>
+            </div>
+
+            <div class="profile">
+                <img src="./img/Dragon-amico.png" alt="">
+                <h3>Kamil Ismayilzada</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">profile settings</a>
+            </div>
+
+            <div class="navbar">
+                <a href="home.html"><i class="fa-solid fa-house-user"></i><span>home</span></a>
+                <a href="about.html"><i class="fa-solid fa-circle-question"></i><span>about us</span></a>
+                <a href="course.html"><i class="fa-solid fa-school"></i><span>our courses</span></a>
+                <a href="teacher.html"><i class="fa-solid fa-chalkboard-user"></i><span>our teachers</span></a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i><span>contact us</span></a>
+            </div>
+
+        </div>
+
+    <!-- Sidebar End -->
+
+    <!-- Videos Start -->
+        
+        <section class="video-watch">
+
+            <div class="video-details">
+                <video src="./vid/React in 100 Seconds.mp4" class="video" controls autoplay></video>
+                <h3 class="likes">React JS tutorial Part 1</h3>
+                <div class="info">
+                    <p><i class="fa-sharp fa-solid fa-calendar-days"></i><span>12-10-2022</span> </p>
+                    <p><i class="fa-sharp fa-solid fa-heart"></i><span>62 likes</span></p>                           
+                </div>
+
+                <div class="tutor">
+                    <img src="./img/Ninja-pana.png" alt="">
+                    <div>
+                        <h3>Emil Wasilewski</h3>
+                        <span>web developer</span>
+                    </div>
+                </div>
+
+                <form action="" method="post" class="flex">
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                    <button type="submit"><i class="fa-regular fa-heart"></i><span>like</span></button>
+                </form>
+
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero molestias culpa debitis labore eaque voluptatem totam dolor veritatis sint enim!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis quidem enim ut, explicabo consequuntur minus perferendis deleniti impedit at veritatis iure ipsa distinctio a.</p>
+                </div>
+            </div>
+
+        </section>
+
+    <!-- Videos End -->
+
+
+    <!-- Comments Start -->
+
+        <section class="comments">
+
+            <h1 class="heading">add comments</h1>
+
+            <form action="" method="post" class="add-comment">
+                <textarea name="comment_box" required placeholder="add comment..." maxlength="1000" cols="30" rows="10"></textarea>
+                <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+            </form>
+
+            <h1 class="heading">8 comments</h1>
+
+            <div class="show-comments">
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Muzzle-bro.png" alt="">
+                        <div>
+                            <h3>Marcin Kucharski</h3>
+                            <span>20-09-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment-text">comment from Marcin)</p>
+
+                    <form action="" method="post" class="flex-btn">
+                        <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
+                        <button type="submit" name="delete_comment" class="inline-delete-btn">delete comment</button>
+                    </form>
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Ninja-pana.png" alt="">
+                        <div>
+                            <h3>Oskar Nowicki</h3>
+                            <span>24-09-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment">Amazing courses)))</p>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Scavenger hunt-amico.png" alt="">
+                        <div>
+                            <h3>Bruno Rutkowski</h3>
+                            <span>24-09-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment">i loved it.</p>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Dragon-pana.png" alt="">
+                        <div>
+                            <h3>Ewa Chmielewska</h3>
+                            <span>26-09-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment">really useful course.</p>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Scavenger hunt-amico.png" alt="">
+                        <div>
+                            <h3>Ewa Chmielewska</h3>
+                            <span>01-10-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment-text">i am already finishing it.</p>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Ninja-bro.png" alt="">
+                        <div>
+                            <h3>Mariusz Chmielewski</h3>
+                            <span>06-10-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment">looking for my job after this.</p>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Dragon-bro.png" alt="">
+                        <div>
+                            <h3>Karolina Szczepańska</h3>
+                            <span>10-10-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment">recommended course.</p>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="user">
+                        <img src="./img/Dragon-rafiki.png" alt="">
+                        <div>
+                            <h3>Karolina Sadowska</h3>
+                            <span>11-10-2022</span>
+                        </div>
+                    </div>
+
+                    <p class="comment">brief explanation, very nice.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- Comments End -->
+
+    <!-- Footer Start -->
+
+        <footer class="footer">
+
+            &copy; copyright 2022 | <span>Kamil</span> | all rights reserved!
+
+        </footer>
+
+    <!-- Footer End -->
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
